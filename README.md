@@ -26,7 +26,7 @@
 
 3. Hướng dẫn chạy dự án ở máy Local:
 
-B1 Mở inteliji và clone source code về máy.
+B1 Mở inteliji và clone repo về máy.
 
 B2 Mở SSMS và tạo database mới tên `InternshipDB`.
 
@@ -36,5 +36,7 @@ B4 Mở file `src/main/resources/application-dev.yml`, kiểm tra lại thông t
 
 B5 Chạy file InternshipProjectApplication.java
 
-B6 Sau khi server chạy ở port 8080, mở trình duyệt vào `http://localhost:8080/swagger-ui/index.html` để xem danh sách API và test thử.
+B6 Vào scripts/postman để lấy file postman, đăng ký tài khoản manager và user.
+
+B7 Sau khi server chạy ở port 8080, mở trình duyệt vào `http://localhost:8080/swagger-ui/index.html` để xem danh sách API và test thử.
 
